@@ -1,1 +1,6 @@
 # DNATranscription
+This program simulates the processs of DNA Transcription, in which DNA is transcribed into mRNA and then that mRNA is translated into a set of amino acids. A user can also choose to enqueue or dequeue different strands of DNA in order to achieve their own desired DNA sequence. This sequence of DNA strands will be stored in a queue of characters that can then be manipulated using other methods in the program. Each strand of DNA will act as a node in the queue.
+# Details
+A user can choose to input their own DNA sequence using enqueue and dequeue methods. After a DNA sequence is created and stored into the queue it can either be individually converted into a mRNA sequence and then the resulting mRNA sequence can be converted into a set of amino acids. The user has the option to either do this in one step with the translateDNA() method or in two steps using the transcribeDNA() and mRNATranslate() methods. The DNA class contains the methods that carry out the actual conversions, the LinkedQueue class is responsible for creating the queue that represents the DNA sequence, and the Node class is used to represent the individual strands of the DNA. 
+# Included
+I have included all of the Java files that are used to make the program work and a QueueADT interface.
